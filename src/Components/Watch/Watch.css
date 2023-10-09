@@ -1,0 +1,31 @@
+.watch{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+}
+.watch img{
+    padding: 5px;
+    height: 50vh;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.btnUpdate{
+    background-color: transparent;
+    border: 2px solid burlywood;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: burlywood;
+    margin-top:auto;
+}
+.btnUpdate:hover{
+    background-color: burlywood;
+    border: 2px solid #e5e5e5;
+    color: #e5e5e5;
+}

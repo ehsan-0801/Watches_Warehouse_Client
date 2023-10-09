@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.carousel{
+    margin-top: -68px;
+    z-index: -1;
+}
+.carousel .image
+{
+    border-radius: 0 0 30% 30%/0 0 60% 60%;
+    transform: scaleX(1.1);
+    
+}
+.navlink{
+    font-family: 'Oswald';
+    color:burlywood !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#31dede !important;
+}
+.logo{
+    font-family: 'Roboto Mono', monospace;
+    color:darkgray !important;
+    border: 2px solid darkgray;
+    padding-left: 10px;    
+    padding-right: 10px;    
+}
+.bgColor{
+    background-color:transparent;
+}
+.sliderHeading{
+    font-size: 5em;
+    margin-top: -30%;
+}
+@media only screen and (max-width: 600px) {
+    .carousel {
+        margin-top: 0;
+        z-index: -1;
+    }
+    .carousel .image
+    {
+        border-radius: 0 0 0 0;
+    }
+    /* .bgColor{
+        background-color: #264653;
+    } */
+    .sliderHeading{
+        font-size: 1em;
+        margin-top: 0;
+    }
+  }

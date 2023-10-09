@@ -1,0 +1,15 @@
+.tableimg{
+    width: 500px;
+    border: 10px solid lightblue;
+    border-radius:50%;
+}
+.bgCustom{
+    background: lightblue
+}
+@media only screen and (max-width:600px) {
+    .tableimg{
+        width: 200px;
+    border: 10px solid lightblue;
+    border-radius:50%;
+    }
+}

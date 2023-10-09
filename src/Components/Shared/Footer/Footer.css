@@ -1,0 +1,8 @@
+.footer{
+    background-color: burlywood;
+    height: 20vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+}

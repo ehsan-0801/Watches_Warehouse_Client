@@ -1,0 +1,32 @@
+.signUpform{
+    border: 3px solid burlywood;
+    width: 40% !important;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bg-custom{
+    background-color: lightgray;
+}
+.formImage{
+    border: 5px groove burlywood;
+    margin-top:5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signupPage{
+    background-color: #abd2d7;
+    padding: 20px;
+}
+.formImage{
+    width: 300px;
+}
+@media only screen and (max-width: 600px) {
+    .signUpform{
+        width: 100%;
+    }
+    .formImage{
+        width: 50px;
+    }
+    
+}

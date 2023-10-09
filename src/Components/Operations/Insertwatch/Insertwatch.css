@@ -1,0 +1,16 @@
+.ItemsForm{
+    padding: 20px;
+    border: 5px solid burlywood;
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color: white !important;
+}
+.itemsaddingpage{
+    background-color: #abd2d7;
+    padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .ItemsForm{
+        padding: 2px;
+    }
+}
